@@ -1,4 +1,12 @@
-Í¨¹ı github ´´½¨²©¿ÍµÄ²âÊÔ
-=============
 
-* ²âÊÔ
+# Jadedrip çš„åšå®¢
+
+## è‡´è°¢
+
+1. Fork from: https://github.com/qiubaiying/qiubaiying.github.io 
+2. æ„Ÿè°¢ Jekyllã€Github Pages å’Œ Bootstrap!
+
+## License
+
+éµå¾ª MIT è®¸å¯è¯ã€‚æœ‰å…³è¯¦ç»†,è¯·å‚é˜… [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)ã€‚
+
