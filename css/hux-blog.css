@@ -517,6 +517,7 @@ pre code {
 .intro-header .page-heading {
   padding: 85px 0 55px;
   color: white;
+  text-shadow: black 0.1em 0.1em 0.2em
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -845,6 +846,7 @@ img::-moz-selection {
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
+  text-shadow:black 0.1em 0.1em 0.2em
 }
 .tags a,
 .tags .tag {
