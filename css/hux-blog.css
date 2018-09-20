@@ -328,6 +328,7 @@ pre code {
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.239216) 0px 1px 4px;
     border-radius: 2px;
     width: 170px;
+    
   }
   /**
 	 * Animation
@@ -523,7 +524,7 @@ pre code {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .intro-header .site-heading {
@@ -531,7 +532,7 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .intro-header .site-heading,
@@ -846,28 +847,29 @@ img::-moz-selection {
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
-  text-shadow:black 0.1em 0.1em 0.2em
 }
 .tags a,
 .tags .tag {
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 999em;
   padding: 0 10px;
-  color: #ffffff;
+  color: white;
   line-height: 24px;
   font-size: 12px;
   text-decoration: none;
   margin: 0 1px;
   margin-bottom: 6px;
+  box-shadow: 2px 2px 1px #888888;
 }
+
 .tags a:hover,
 .tags .tag:hover,
 .tags a:active,
 .tags .tag:active {
   color: white;
   border-color: white;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
   text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
@@ -982,6 +984,11 @@ img::-moz-selection {
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
+
+nav {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
