@@ -4,7 +4,7 @@ SEOTitle: Jadedrip的博客
 header-img: img/top-bg.jpg
 email: jadedrip@gmail.com
 description: "A Programmer."
-keyword: "Jadedrip的博客, jadedrip, 翡翠水滴, Java, C++e"
+keyword: "Jadedrip的博客, jadedrip, 翡翠水滴, Java, C++"
 url: "http://jadedrip.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/jadedrip/jadedrip.github.io.git" # you code repository
@@ -59,7 +59,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
+  enable: true    #是否开启Gitalk评论
   clientID: 8f5cbb294fc033b2a077                            #生成的clientID
   clientSecret: 7bf2c777898d4105097d56c3d49986e4e8d57afe    #生成的clientSecret
   repo: jadedrip.github.io    #仓库名称
