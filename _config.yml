@@ -54,14 +54,14 @@ kramdown:
 
 
 # 评论系统
-Disqus（https://disqus.com/）
-disqus_username: jadedrip
+# Disqus（https://disqus.com/）
+# disqus_username: jadedrip
 
 # Gitalk
 gitalk:
   enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  clientID: 35dafa2acf55fe8fa2cd                            #生成的clientID
+  clientSecret: df4eb24c0a9c32b234c37f3e79cc3e5dfd9b6d08    #生成的clientSecret
   repo: jadedrip.github.io    #仓库名称
   owner: jadedrip    #github用户名
   admin: jadedrip
