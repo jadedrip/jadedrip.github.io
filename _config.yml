@@ -16,12 +16,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+# weibo_username:     jadedrip
 zhihu_username:     jadedrip
 github_username:    jadedrip
 facebook_username:  jadedrip
 jianshu_username:   51ad010a0c8e
-#twitter_username:   qiubaiying
+#twitter_username:   jadedrip
 
 
 
@@ -59,7 +59,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: true`    #是否开启Gitalk评论
   clientID: 8f5cbb294fc033b2a077                            #生成的clientID
   clientSecret: 7bf2c777898d4105097d56c3d49986e4e8d57afe    #生成的clientSecret
   repo: jadedrip.github.io    #仓库名称
