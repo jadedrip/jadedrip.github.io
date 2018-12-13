@@ -14,7 +14,7 @@ category: vue
 
 创建一个工程，用 npm init 初始化生成 package.json 文件，然后配置 webpack。
 
-webpack.config.js 配置，用的 vue-loader 的官方配置：
+webpack.config.js 用的 vue-loader 的官方配置：
 
     // webpack.config.js
     const path = require('path')
