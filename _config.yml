@@ -59,7 +59,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true`    #是否开启Gitalk评论
+  enable: true    #是否开启Gitalk评论
   clientID: 8f5cbb294fc033b2a077                            #生成的clientID
   clientSecret: 7bf2c777898d4105097d56c3d49986e4e8d57afe    #生成的clientSecret
   repo: jadedrip.github.io    #仓库名称
