@@ -31,6 +31,6 @@ Protobuf 通过递归和 Varint 巧妙的解决了序列化问题，确实相当
 
 很久以前写过一个 C++ 版本的 protobuf 编码器，最近又准备搞个 Java 版的，可以在不想写 proto 文件的情况下序列化类。
 
-https://github.com/jadedrip/protobuf-serializable
+[github/protobuf-serializable](https://github.com/jadedrip/protobuf-serializable)
 
 这个就当短期目标，一定要完成吧。
