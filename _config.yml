@@ -16,15 +16,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     jadedrip
+weibo_username:     jadedrip
 zhihu_username:     jadedrip
 github_username:    jadedrip
-facebook_username:  jadedrip
-jianshu_username:   51ad010a0c8e
-#twitter_username:   jadedrip
-
-
-
+# facebook_username:  jadedrip
+# jianshu_username:   51ad010a0c8e
+# twitter_username:   jadedrip
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -90,10 +87,7 @@ service-worker: true
 # Friends
 # friends: [
 #    {
-#        title: "Apple",
-#        href: "https://apple.com"
-#    },{
-#        title: "Apple Developer",
-#        href: "https://developer.apple.com/"
+#        title: "GitHub",
+#        href: "https://github.com/jadedrip"
 #    }
-#]
+# ]

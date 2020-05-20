@@ -128,7 +128,7 @@ layout: default
                                 <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa  fa-stack-1x fa-inverse">简</i>
+                                        <i class="fa fa-stack-1x fa-inverse">简</i>
                                     </span>
                                 </a>
                             </li>
@@ -190,21 +190,23 @@ layout: default
                         {% endif %}
                     </div>
                 </section>
-                <hr/>
-                <h5>打赏</h5>
-                <div>
-                    <img src="/img/pay.jpg" width="175px" />
-                </div>
+
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>友情链接</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
+
+                <hr/>
+                <h5>打赏</h5>
+                <div>
+                    <img src="/img/pay.jpg" width="175px" />
+                </div>
     		</div>
         {% endif %}
 	</div>
