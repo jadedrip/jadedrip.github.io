@@ -76,7 +76,7 @@ flex 工具会处理的这个规则文件，并生成一个解析用的 c 文件
 
 
 ```
-0[lL]|(\-?[1-9]{D}*)[lL]	{ yylval.expr=makeValue(yytext,std::stoll(yytext));			return INT64_TOKEN; } 
+0[lL]|(\-?[1-9]{D}*)[lL]	{ yylval.expr=makeValue(yytext,std::stoll(yytext));		return INT64_TOKEN; } 
 ```
 
 其中 `yytext` 是内部变量，表示匹配的文本，yylval 也是一个内部变量，不过类型可以自己定义，我是通过 bison 里定义的，生成的 c 类型定义似这样：
@@ -95,13 +95,13 @@ union YYSTYPE
 
 然后，你就可以用 flex 工具生成一个 c/cpp 文件，把他加入自己的工程，你的工程就有了解析能力了
 
-```
+```bash
 flex -o[输出文件] [输入文件]
 ```
 
  调用解析也很简单：
 
-```
+```c
 extern int yyparse(void);
 extern FILE *yyin;
 ...
@@ -109,7 +109,7 @@ yyin = fopen(argv[1], "r"); /* 首先打开要被处理的文件（参数1）yyi
 return 0 == yyparse(); 		/* 开始解析，返回0表示无错误 */
 ```
 
-你看，我们轻松就搞定了词法分析，简单吧？
+你看，我们轻松就搞定了词法分析，简单吧？（*一个不成熟的小建议：真要写还是稍微再研究一下 flex 为好。*）
 
-*（未完待续)*
+[Next...](http://jadedrip.github.io/2021/03/04/zero-compile-2/)
 
