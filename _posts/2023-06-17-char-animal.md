@@ -14,6 +14,6 @@ tags:
 
 下载地址：
 
-https://cloud.189.cn/web/share?code=6FvimmRjQzYr  （访问码：5lj8）
+[天翼网盘](https://cloud.189.cn/web/share?code=6FvimmRjQzYr "char-animal")  （访问码：5lj8）
 
 由于是3D的，大约 400M，只支持 Windows.
