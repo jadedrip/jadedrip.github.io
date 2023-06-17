@@ -8,7 +8,7 @@ tags:
 
 最近在学习虚幻引擎，有了初步的成果，做了一个给不熟悉键盘的孩子玩的小游戏。
 
-![char-animal](https://jadedrip.github.io/img/about-BY-gentle.png "游戏截图")
+![char-animal](https://jadedrip.github.io/img/char-animal.png "游戏截图")
 
 画面中间是个小陷阱，当动物到达陷阱，按下对应的按键就能抓到动物啦！超级简单，让孩子试试吧。
 
