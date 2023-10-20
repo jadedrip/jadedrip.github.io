@@ -352,35 +352,8 @@
     <div>
         <hr style="visibility: hidden;">
 
-        <!--Gitalk评论start  -->
-        <!-- 引入Gitalk评论插件  -->
-        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-        <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-        <div id="gitalk-container">
-            <div class="gt-container">
-                <div class="gt-no-init">
-                    <p>未找到相关的 <a href="https://github.com/jadedrip/jadedrip.github.io/issues">Issues</a> 进行评论</p>
-                    <p>请联系 @jadedrip 初始化创建</p><button class="gt-btn gt-btn-login"><span class="gt-btn-text">使用 GitHub
-                            登录</span></button>
-                </div>
-            </div>
-        </div>
-        <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
-        <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
-        <script src="/js/md5.min.js"></script>
-        <script type="text/javascript">
-            var gitalk = new Gitalk({
-                clientID: '8f5cbb294fc033b2a077',
-                clientSecret: '7bf2c777898d4105097d56c3d49986e4e8d57afe',
-                repo: 'jadedrip.github.io',
-                owner: 'jadedrip',
-                admin: ['jadedrip'],
-                distractionFreeMode: true,
-                id: md5(location.pathname),
-            });
-            gitalk.render('gitalk-container');
-        </script>
-        <!-- Gitalk end -->
+
+      
     </div>
 </body>
 
