@@ -20,7 +20,7 @@ const a = ref({ count: 0 })
 const b = reactive({ count: 0 })
 
 console.log(a.value.count) // 需要通过 .value 来访问
-console.log(a.count) // 可以直接访问
+console.log(b.count) // 可以直接访问
 
 a.value = { newCount: 1 }  // 可以修改 count 对象本身
 b.count = 55  // 只能修改 state 对象内 count 的值，state 对象本身没有被更改
