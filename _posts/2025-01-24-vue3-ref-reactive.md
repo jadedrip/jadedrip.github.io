@@ -11,7 +11,7 @@ category:
 
 ref 和 reactive 都是 Vue3 提供的响应式 API，用于创建响应式数据。它们的主要区别在于使用方式和适用场景。
 
-ref 用于数据本身会被更改的场合，代码中需要通过 .value 来访问和修改数据，所以基本数据最好使用 ref。reactive 用于数据本身不会更改的场合，代码中可以直接访问和修改数据，reactive 最大的好处是代理里可以省略 .value 。
+ref 用于数据对象本身会被更改的场合，代码中需要通过 .value 来访问和修改数据，所以基本数据最好使用 ref。reactive 用于数据对象本身不会更改，只更改它的成员变量的场合，代码中可以直接访问和修改数据，reactive 最大的好处是代理里可以省略 .value 。
 
 ```javascript
 import { ref, reactive } from 'vue'
